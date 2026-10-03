@@ -1,0 +1,1 @@
+window.VALORIA_DATA=window.VALORIA_DATA||{}; VALORIA_DATA["الأدوات"]= [];
