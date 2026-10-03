@@ -38,6 +38,7 @@ function render() {
   });
 
   title.textContent = selected === "الكل" ? "كل منتجات ڤالوريا" : selected;
+  document.getElementById("result-count").textContent = products.length;
   grid.innerHTML = "";
 
   if (!products.length) {
