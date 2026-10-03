@@ -4,7 +4,7 @@ window.VALORIA_PRODUCTS = [
     "name": "تصفير السالبات + تغيير اسم الحساب",
     "category": "خدمات",
     "price": 5,
-    "image": "assets/products/item-001.jpg"
+    "image": ""
   },
   {
     "id": "ulg-002",
@@ -179,42 +179,42 @@ window.VALORIA_PRODUCTS = [
     "name": "رصيد موقع 10",
     "category": "رصيد",
     "price": 10,
-    "image": "assets/products/item-026.jpg"
+    "image": "assets/products/item-031.jpg"
   },
   {
     "id": "ulg-027",
     "name": "رصيد موقع 25",
     "category": "رصيد",
     "price": 25,
-    "image": "assets/products/item-027.jpg"
+    "image": "assets/products/item-032.jpg"
   },
   {
     "id": "ulg-028",
     "name": "رصيد موقع 50",
     "category": "رصيد",
     "price": 50,
-    "image": "assets/products/item-028.jpg"
+    "image": "assets/products/item-033.jpg"
   },
   {
     "id": "ulg-029",
     "name": "رصيد موقع 75",
     "category": "رصيد",
     "price": 75,
-    "image": "assets/products/item-029.jpg"
+    "image": "assets/products/item-034.jpg"
   },
   {
     "id": "ulg-030",
     "name": "رصيد موقع 100",
     "category": "رصيد",
     "price": 100,
-    "image": "assets/products/item-030.jpg"
+    "image": "assets/products/item-035.jpg"
   },
   {
     "id": "ulg-031",
     "name": "بطاقة توثيق العائلة",
     "category": "خدمات",
     "price": 15,
-    "image": "assets/products/item-031.jpg"
+    "image": "assets/products/item-042.jpg"
   },
   {
     "id": "ulg-032",
