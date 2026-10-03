@@ -1,11 +1,6 @@
-const sections=["الرئيسية","المركبات","العضويات","البطاقات والرخص","الأدوات","الباقات","أخرى"];
-let active="الرئيسية",cart=0;
-function allProducts(){return Object.values(window.VALORIA_DATA||{}).flat()}
-function cats(){document.getElementById("categories").innerHTML=sections.map(c=>`<button class="cat ${active===c?"active":""}" onclick="active='${c}';cats();render()">${c}</button>`).join("")}
-function render(){
- const q=document.getElementById("search").value.trim().toLowerCase();
- document.getElementById("heading").textContent=active==="الرئيسية"?"الرئيسية المتجر":active;
- const list=allProducts().filter(p=>(active==="الرئيسية"||p.category===active)&&p.name.toLowerCase().includes(q));
- document.getElementById("grid").innerHTML=list.map(p=>`<article class="product"><div class="photo">${p.image?`<img src="${p.image}" alt="${p.name}" onerror="this.style.display='none';this.parentNode.innerHTML='<span class=\'noimage\'>أضف الصورة داخل مجلد assets</span>'">`:`<span class="noimage">أضف الصورة داخل مجلد assets</span>`}</div><div class="stock">${p.stock?`يوجد ${p.stock} من المنتجات`:"المخزون يُضاف لاحقاً"}</div><div class="name">${p.name}</div><div class="meta">${p.modelId?`Model ID: ${p.modelId}`:""}</div><div class="price">${p.price?`${p.price} USD`:"السعر يُحدد لاحقاً"}</div><button class="buy" onclick="cart++;document.getElementById('count').textContent=cart">شراء</button></article>`).join("")||"<p>لا توجد منتجات مضافة في هذا القسم حتى الآن.</p>";
-}
-cats();render();
+const all=window.VALORIA_PRODUCTS||[];let selected="الكل",cart=0;
+const categories=["الكل",...new Set(all.map(p=>p.category))];
+const cats=document.getElementById("cats"),grid=document.getElementById("grid"),search=document.getElementById("search");
+function drawCats(){cats.innerHTML="";categories.forEach(c=>{const b=document.createElement("button");b.className="cat"+(c===selected?" active":"");b.textContent=c;b.onclick=()=>{selected=c;drawCats();render()};cats.appendChild(b)})}
+function render(){const q=search.value.trim().toLowerCase();const list=all.filter(p=>(selected==="الكل"||p.category===selected)&&p.name.toLowerCase().includes(q));document.getElementById("title").textContent=selected==="الكل"?"الرئيسية المتجر":selected;grid.innerHTML="";list.forEach(p=>{const card=document.createElement("article");card.className="product";card.innerHTML=`<div class="pic"><img src="${p.image}" alt=""></div><div class="stock">يوجد ${p.stock} من المنتجات</div><div class="name">${p.name}</div><div class="price">USD ${p.price}</div><button class="buy">شراء</button>`;card.querySelector(".buy").onclick=()=>{cart++;document.getElementById("count").textContent=cart;alert("تمت الإضافة للسلة التجريبية. الشراء الحقيقي يحتاج ربط دفع وتسليم آمن.")};grid.appendChild(card)})}
+drawCats();render();search.addEventListener("input",render);
