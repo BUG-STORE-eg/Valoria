@@ -1,7 +1,7 @@
 window.VALORIA_PRODUCTS = [
   {
     "id": "ulg-001",
-    "name": "تغيير الاسم + تغيير اسم حسابي",
+    "name": "تغيير الاسم وتغيير اسم الحساب",
     "category": "خدمات",
     "price": 5,
     "stock": 867,
@@ -17,7 +17,7 @@ window.VALORIA_PRODUCTS = [
   },
   {
     "id": "ulg-003",
-    "name": "بي ام دبليو",
+    "name": "بي إم دبليو",
     "category": "مركبات",
     "price": 30,
     "stock": 851,
@@ -25,7 +25,7 @@ window.VALORIA_PRODUCTS = [
   },
   {
     "id": "ulg-004",
-    "name": "هونداي 2024",
+    "name": "هيونداي 2024",
     "category": "مركبات",
     "price": 30,
     "stock": 897,
@@ -57,7 +57,7 @@ window.VALORIA_PRODUCTS = [
   },
   {
     "id": "ulg-008",
-    "name": "رانج روفر 2024",
+    "name": "رينج روفر 2024",
     "category": "مركبات",
     "price": 25,
     "stock": 958,
@@ -89,7 +89,7 @@ window.VALORIA_PRODUCTS = [
   },
   {
     "id": "ulg-012",
-    "name": "نيسان بيك اب",
+    "name": "نيسان بيك أب",
     "category": "مركبات",
     "price": 15,
     "stock": 912,
@@ -121,7 +121,7 @@ window.VALORIA_PRODUCTS = [
   },
   {
     "id": "ulg-016",
-    "name": "مرسيدس 6x6",
+    "name": "مرسيدس G-Class 6×6",
     "category": "مركبات",
     "price": 30,
     "stock": 916,
@@ -201,40 +201,40 @@ window.VALORIA_PRODUCTS = [
   },
   {
     "id": "ulg-026",
-    "name": "رصيد موقع 10",
-    "category": "رصيد",
+    "name": "شحن رصيد الموقع 10 USD",
+    "category": "رصيد الموقع",
     "price": 10,
     "stock": 945,
     "image": "assets/products/item-026.jpg"
   },
   {
     "id": "ulg-027",
-    "name": "رصيد موقع 25",
-    "category": "رصيد",
+    "name": "شحن رصيد الموقع 25 USD",
+    "category": "رصيد الموقع",
     "price": 25,
     "stock": 990,
     "image": "assets/products/item-027.jpg"
   },
   {
     "id": "ulg-028",
-    "name": "رصيد موقع 50",
-    "category": "رصيد",
+    "name": "شحن رصيد الموقع 50 USD",
+    "category": "رصيد الموقع",
     "price": 50,
     "stock": 982,
     "image": "assets/products/item-028.jpg"
   },
   {
     "id": "ulg-029",
-    "name": "رصيد موقع 75",
-    "category": "رصيد",
+    "name": "شحن رصيد الموقع 75 USD",
+    "category": "رصيد الموقع",
     "price": 75,
     "stock": 995,
     "image": "assets/products/item-029.jpg"
   },
   {
     "id": "ulg-030",
-    "name": "رصيد موقع 100",
-    "category": "رصيد",
+    "name": "شحن رصيد الموقع 100 USD",
+    "category": "رصيد الموقع",
     "price": 100,
     "stock": 970,
     "image": "assets/products/item-030.jpg"
@@ -409,7 +409,7 @@ window.VALORIA_PRODUCTS = [
   },
   {
     "id": "ulg-052",
-    "name": "كارت تعديل سيارة فل",
+    "name": "كارت تعديل سيارة كامل",
     "category": "خدمات",
     "price": 5,
     "stock": 981,
@@ -449,7 +449,7 @@ window.VALORIA_PRODUCTS = [
   },
   {
     "id": "ulg-057",
-    "name": "تفعيل حساب دائم",
+    "name": "تفعيل الحساب بشكل دائم",
     "category": "خدمات",
     "price": 50,
     "stock": 999,
@@ -457,7 +457,7 @@ window.VALORIA_PRODUCTS = [
   },
   {
     "id": "ulg-058",
-    "name": "تفعيل حساب أول ديسكورد",
+    "name": "تفعيل حساب الديسكورد الأول",
     "category": "خدمات",
     "price": 10,
     "stock": 999,
@@ -481,7 +481,7 @@ window.VALORIA_PRODUCTS = [
   },
   {
     "id": "ulg-061",
-    "name": "إلغاء تفعيل حساب دائم",
+    "name": "إلغاء تفعيل الحساب الدائم",
     "category": "خدمات",
     "price": 30,
     "stock": 999,
@@ -489,7 +489,7 @@ window.VALORIA_PRODUCTS = [
   },
   {
     "id": "ulg-062",
-    "name": "إلغاء تفعيل حساب مؤقت",
+    "name": "إلغاء تفعيل الحساب المؤقت",
     "category": "خدمات",
     "price": 15,
     "stock": 999,
@@ -505,7 +505,7 @@ window.VALORIA_PRODUCTS = [
   },
   {
     "id": "ulg-064",
-    "name": "إلغاء منع توظيف مؤقت",
+    "name": "إلغاء منع التوظيف المؤقت",
     "category": "خدمات",
     "price": 10,
     "stock": 999,
@@ -513,7 +513,7 @@ window.VALORIA_PRODUCTS = [
   },
   {
     "id": "ulg-065",
-    "name": "إلغاء منع توظيف دائم",
+    "name": "إلغاء منع التوظيف الدائم",
     "category": "خدمات",
     "price": 30,
     "stock": 999,
@@ -521,7 +521,7 @@ window.VALORIA_PRODUCTS = [
   },
   {
     "id": "ulg-066",
-    "name": "إلغاء الحظر دائم",
+    "name": "إلغاء الحظر الدائم",
     "category": "خدمات",
     "price": 15,
     "stock": 999,
@@ -537,7 +537,7 @@ window.VALORIA_PRODUCTS = [
   },
   {
     "id": "ulg-068",
-    "name": "مجموع من التوظيف",
+    "name": "إزالة منع التوظيف",
     "category": "خدمات",
     "price": 30,
     "stock": 999,
