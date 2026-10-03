@@ -1,75 +1,33 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="ar" dir="rtl">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="theme-color" content="#0b1020">
-<title>VALORIA ROLEPLAY | المتجر الرسمي</title>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>VALORIA ROLEPLAY | Store</title>
 <style>
-:root{--bg:#090d18;--panel:#111a2c;--panel2:#17233a;--line:#263653;--blue:#1769ff;--cyan:#43b7ff;--text:#f4f7ff;--muted:#9aabc7;--gold:#ffc857}
-*{box-sizing:border-box}body{margin:0;background:radial-gradient(ellipse at 50% -20%,#172b50 0,transparent 48%),var(--bg);color:var(--text);font-family:Tahoma,Arial,sans-serif}
-a{color:inherit;text-decoration:none}.wrap{max-width:1400px;margin:auto;padding:0 22px}
-header{border-bottom:1px solid #263653;background:#0a1020e8;position:sticky;top:0;z-index:5;backdrop-filter:blur(12px)}
-.nav{height:76px;display:flex;align-items:center;justify-content:space-between;gap:20px}.brand{display:flex;align-items:center;gap:12px;font-weight:900;letter-spacing:1px}.logo{width:44px;height:44px;border:2px solid var(--blue);border-radius:14px;display:grid;place-items:center;color:#fff;background:linear-gradient(145deg,#173b80,#10182b);font-size:21px}.brand small{display:block;color:var(--cyan);font-size:10px;letter-spacing:3px;margin-top:4px}
-.navlinks{display:flex;gap:22px;color:#b9c7df;font-size:13px}.navlinks a:hover{color:white}.cart{background:#14274a;border:1px solid #2c4d82;padding:11px 15px;border-radius:11px;font-weight:bold;cursor:pointer;color:white}
-.hero{padding:65px 0 36px;text-align:center}.eyebrow{display:inline-block;color:#91c8ff;border:1px solid #2b528d;background:#102447;padding:8px 13px;border-radius:30px;font-size:12px}.hero h1{font-size:clamp(32px,5vw,58px);margin:18px 0 10px}.hero h1 span{color:var(--cyan)}.hero p{color:var(--muted);max-width:650px;margin:0 auto 24px;line-height:1.9;font-size:14px}.actions{display:flex;justify-content:center;gap:10px;flex-wrap:wrap}.btn{border:0;border-radius:10px;padding:13px 20px;font-weight:bold;cursor:pointer}.primary{background:linear-gradient(135deg,#1769ff,#1450c7);color:white;box-shadow:0 8px 24px #0757e533}.secondary{background:#172238;color:#dbe7ff;border:1px solid #30415f}
-.stats{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;max-width:650px;margin:34px auto 0}.stat{background:#10192b;border:1px solid var(--line);padding:14px;border-radius:12px}.stat b{display:block;font-size:18px}.stat small{color:var(--muted);font-size:11px}
-.section{padding:22px 0 55px}.sectionhead{display:flex;justify-content:space-between;align-items:end;gap:15px;margin-bottom:20px}.sectionhead h2{margin:0;font-size:22px}.sectionhead p{color:var(--muted);font-size:12px;margin:8px 0 0}
-.tools{display:flex;gap:10px;flex-wrap:wrap;margin-bottom:18px}.search{flex:1;min-width:220px;background:#111a2c;border:1px solid var(--line);border-radius:10px;color:white;padding:13px 15px;outline:none}.search:focus{border-color:#4387ff}.filters{display:flex;gap:7px;flex-wrap:wrap}.filter{background:#121c30;border:1px solid var(--line);color:#b8c7e1;border-radius:9px;padding:10px 13px;cursor:pointer;font-size:12px}.filter.active,.filter:hover{background:#164cb0;border-color:#2676ff;color:white}
-.grid{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:13px}.product{background:linear-gradient(180deg,#141f34,#101827);border:1px solid #243451;border-radius:13px;overflow:hidden;transition:.2s}.product:hover{transform:translateY(-3px);border-color:#3c73c9;box-shadow:0 12px 30px #0005}.visual{height:145px;background:radial-gradient(circle at 50% 65%,#263b5e,#111a2b 65%);display:grid;place-items:center;position:relative}.visual .emoji{font-size:54px;filter:drop-shadow(0 10px 8px #0008)}.tag{position:absolute;top:10px;right:10px;background:#173f79;color:#a9d7ff;padding:5px 8px;border-radius:6px;font-size:10px}.pbody{padding:13px}.pbody h3{font-size:13px;margin:0 0 7px}.desc{font-size:11px;color:var(--muted);min-height:32px;line-height:1.6}.price{font-weight:bold;color:#62baff;font-size:14px;margin:11px 0}.buy{width:100%;padding:10px;border:1px solid #2166d6;background:#1045a2;color:white;border-radius:8px;cursor:pointer;font-weight:bold}.buy:hover{background:#1769ff}
-.note{margin-top:20px;padding:14px 16px;background:#171b28;border:1px solid #4d4228;border-radius:10px;color:#c9c3b3;font-size:12px;line-height:1.8}.empty{grid-column:1/-1;text-align:center;color:var(--muted);padding:45px}
-footer{border-top:1px solid var(--line);padding:25px 0;color:var(--muted);font-size:12px}.foot{display:flex;justify-content:space-between;gap:15px;flex-wrap:wrap}
-.modalback{position:fixed;inset:0;background:#000a;display:none;place-items:center;z-index:10;padding:18px}.modalback.show{display:grid}.modal{background:#121c30;border:1px solid #345078;border-radius:15px;padding:22px;max-width:420px;width:100%}.modal h3{margin-top:0}.modal p{color:var(--muted);font-size:13px;line-height:1.8}.modal button{margin-top:8px}
-@media(max-width:1100px){.grid{grid-template-columns:repeat(4,1fr)}}@media(max-width:800px){.grid{grid-template-columns:repeat(3,1fr)}.navlinks{display:none}}@media(max-width:560px){.wrap{padding:0 13px}.grid{grid-template-columns:repeat(2,1fr);gap:9px}.visual{height:115px}.visual .emoji{font-size:43px}.hero{padding-top:43px}.stats{gap:7px}.stat{padding:10px 5px}.stat b{font-size:15px}.stat small{font-size:9px}.sectionhead h2{font-size:19px}}
-</style>
-</head>
-<body>
-<header><div class="wrap nav">
-  <a class="brand" href="#"><span class="logo">V</span><span>VALORIA<small>ROLEPLAY STORE</small></span></a>
-  <nav class="navlinks"><a href="#shop">المتجر</a><a href="#shop" data-cat-link="سيارات">السيارات</a><a href="#shop" data-cat-link="VIP">VIP</a><a href="#about">عن المتجر</a></nav>
-  <button class="cart" id="cartBtn">🛒 السلة <span id="cartCount">0</span></button>
-</div></header>
-<main>
-<section class="hero wrap">
-  <span class="eyebrow">✦ المتجر الرسمي لسيرفر ڤالوريا</span>
-  <h1>امتلك تجربتك داخل <span>VALORIA</span></h1>
-  <p>سيارات، عضويات، ومحتوى حصري لتجربة رول بلاي مختلفة. اختار المنتج وشوف تفاصيله قبل الشراء.</p>
-  <div class="actions"><a class="btn primary" href="#shop">تصفح المنتجات　↓</a><a class="btn secondary" href="#about">طريقة الشراء</a></div>
-  <div class="stats"><div class="stat"><b>24/7</b><small>المتجر متاح دائماً</small></div><div class="stat"><b>داخل اللعبة</b><small>محتوى مخصص للسيرفر</small></div><div class="stat"><b>VALORIA</b><small>Roleplay Community</small></div></div>
-</section>
-<section class="section wrap" id="shop">
- <div class="sectionhead"><div><h2>🛍️ تصفح المتجر</h2><p>اختار القسم وابحث عن المنتج المناسب</p></div></div>
- <div class="tools"><input class="search" id="search" placeholder="ابحث عن منتج..." aria-label="ابحث عن منتج"><div class="filters" id="filters"></div></div>
- <div class="grid" id="products"></div>
- <div class="note">تنبيه: المنتجات والأسعار المعروضة هنا أمثلة تجريبية لتجهيز شكل الموقع فقط. استبدلها بمنتجات وأسعار ڤالوريا الحقيقية قبل النشر. الشراء والدفع غير مفعّلين في هذه النسخة.</div>
-</section>
-<section class="section wrap" id="about"><div class="sectionhead"><div><h2>ℹ️ عن المتجر</h2><p>نسخة واجهة أولية قابلة للتعديل والنشر على GitHub Pages.</p></div></div></section>
-</main>
-<footer><div class="wrap foot"><span>© VALORIA ROLEPLAY — جميع الحقوق محفوظة</span><span>المتجر الرسمي | واجهة تجريبية</span></div></footer>
-<div class="modalback" id="modal"><div class="modal"><h3 id="modalTitle">السلة</h3><p id="modalText"></p><button class="btn primary" id="closeModal">إغلاق</button></div></div>
+*{box-sizing:border-box}body{margin:0;background:#0b1020;color:#f4f7ff;font-family:Arial,sans-serif}
+header{padding:24px 5%;background:#111a30;border-bottom:1px solid #263553;display:flex;justify-content:space-between;align-items:center}
+.logo{font-size:25px;font-weight:900;color:#65a8ff}.hero{padding:35px 5%;background:linear-gradient(120deg,#14284c,#101629)}
+.hero h1{margin:0 0 10px;font-size:32px}.hero p{color:#b8c7df}
+.wrap{padding:24px 5%;display:grid;grid-template-columns:220px 1fr;gap:22px}.side,.item{background:#121b30;border:1px solid #263553;border-radius:14px;padding:16px}
+.side h3{margin-top:0}.side button{display:block;width:100%;text-align:right;margin:7px 0;padding:11px;border:0;border-radius:8px;background:#1b2b49;color:#eaf2ff;cursor:pointer}
+.tools{display:flex;gap:10px;margin-bottom:16px}.tools input{flex:1;padding:12px;border-radius:9px;border:1px solid #344765;background:#0d1527;color:white}
+.grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px}.item{text-align:center}.pic{height:125px;display:grid;place-items:center;font-size:54px;background:#0d1527;border-radius:10px}.stock{color:#65a8ff;margin:10px}.price{color:#65a8ff;font-weight:bold;margin:10px}.item button,.buy{background:#2879ee;color:white;border:0;padding:11px 18px;border-radius:9px;cursor:pointer}
+@media(max-width:850px){.wrap{grid-template-columns:1fr}.grid{grid-template-columns:repeat(2,1fr)}}@media(max-width:500px){.grid{grid-template-columns:1fr}}
+</style></head><body>
+<header><div class="logo">VALORIA</div><div>ROLEPLAY STORE　|　🛒 <span id="count">0</span></div></header>
+<section class="hero"><h1>VALORIA Complete Store</h1><p>متجر مقاطعة ڤالوريا — اختار احتياجاتك داخل السيرفر</p></section>
+<div class="wrap"><aside class="side"><h3>الأقسام</h3><div id="cats"></div></aside><main><div class="tools"><input id="search" placeholder="ابحث عن منتج..." oninput="render()"></div><div class="grid" id="products"></div></main></div>
 <script>
-const categories=["الكل","سيارات","VIP","أسلحة","ملابس","أدوات","باقات"];
 const products=[
- {name:"سيارة رياضية",cat:"سيارات",price:"يحدد لاحقاً",emoji:"🏎️",tag:"مميز",desc:"سيارة خاصة داخل السيرفر — أضف الموديل والتفاصيل"},
- {name:"سيارة فاخرة",cat:"سيارات",price:"يحدد لاحقاً",emoji:"🚘",tag:"جديد",desc:"مركبة فاخرة — أضف الاسم الحقيقي والصورة"},
- {name:"سيارة كلاسيك",cat:"سيارات",price:"يحدد لاحقاً",emoji:"🚗",tag:"",desc:"مركبة كلاسيكية — تفاصيل المنتج هنا"},
- {name:"عضوية VIP",cat:"VIP",price:"يحدد لاحقاً",emoji:"👑",tag:"VIP",desc:"مميزات العضوية ومدة الاشتراك"},
- {name:"VIP Plus",cat:"VIP",price:"يحدد لاحقاً",emoji:"💎",tag:"حصري",desc:"أضف مميزات الباقة ومدة الصلاحية"},
- {name:"باقة أسلحة",cat:"أسلحة",price:"يحدد لاحقاً",emoji:"🛡️",tag:"",desc:"تفاصيل المحتوى المسموح داخل السيرفر"},
- {name:"طقم ملابس",cat:"ملابس",price:"يحدد لاحقاً",emoji:"👕",tag:"",desc:"زي أو مظهر خاص للشخصية"},
- {name:"عدة أدوات",cat:"أدوات",price:"يحدد لاحقاً",emoji:"🧰",tag:"",desc:"أدوات ومستلزمات داخل اللعبة"},
- {name:"باقة البداية",cat:"باقات",price:"يحدد لاحقاً",emoji:"🎁",tag:"باقة",desc:"مجموعة منتجات للمبتدئين"}
+{id:1,name:"سيارة رياضية — مثال",category:"السيارات",price:"يحدد لاحقاً",stock:"متاح",icon:"🏎️"},
+{id:2,name:"سيارة فاخرة — مثال",category:"السيارات",price:"يحدد لاحقاً",stock:"متاح",icon:"🚘"},
+{id:3,name:"عضوية VIP — مثال",category:"العضويات",price:"يحدد لاحقاً",stock:"متاح",icon:"👑"},
+{id:4,name:"بطاقة / رخصة — مثال",category:"البطاقات والرخص",price:"يحدد لاحقاً",stock:"متاح",icon:"🪪"},
+{id:5,name:"أداة — مثال",category:"الأدوات",price:"يحدد لاحقاً",stock:"متاح",icon:"🧰"},
+{id:6,name:"باقة — مثال",category:"الباقات",price:"يحدد لاحقاً",stock:"متاح",icon:"🎁"}
 ];
-let selected="الكل",cart=[];
-const filters=document.getElementById("filters"),grid=document.getElementById("products"),search=document.getElementById("search");
-function renderFilters(){filters.innerHTML="";categories.forEach(c=>{const b=document.createElement("button");b.className="filter"+(selected===c?" active":"");b.textContent=c;b.onclick=()=>{selected=c;renderFilters();render()};filters.appendChild(b)})}
-function render(){const q=search.value.trim().toLowerCase();const list=products.filter(p=>(selected==="الكل"||p.cat===selected)&&(p.name+" "+p.cat+" "+p.desc).toLowerCase().includes(q));grid.innerHTML="";if(!list.length){grid.innerHTML='<div class="empty">مفيش منتجات مطابقة لبحثك.</div>';return}list.forEach(p=>{const el=document.createElement("article");el.className="product";el.innerHTML=`<div class="visual"><span class="emoji">${p.emoji}</span>${p.tag?`<span class="tag">${p.tag}</span>`:""}</div><div class="pbody"><h3>${p.name}</h3><div class="desc">${p.desc}</div><div class="price">${p.price}</div><button class="buy">إضافة للسلة</button></div>`;el.querySelector(".buy").onclick=()=>{cart.push(p);document.getElementById("cartCount").textContent=cart.length;showModal("تمت الإضافة",`أضفت "${p.name}" للسلة التجريبية. الشراء الفعلي غير متاح حالياً.`)};grid.appendChild(el)})}
-function showModal(t,m){document.getElementById("modalTitle").textContent=t;document.getElementById("modalText").textContent=m;document.getElementById("modal").classList.add("show")}
-document.getElementById("cartBtn").onclick=()=>showModal("السلة",cart.length?cart.map((p,i)=>(i+1)+". "+p.name).join("\n"):"السلة فارغة حالياً.");
-document.getElementById("closeModal").onclick=()=>document.getElementById("modal").classList.remove("show");
-document.getElementById("modal").onclick=e=>{if(e.target.id==="modal")e.currentTarget.classList.remove("show")};
-search.oninput=render;
-document.querySelectorAll("[data-cat-link]").forEach(a=>a.onclick=()=>{selected=a.dataset.catLink;renderFilters();render()});
-renderFilters();render();
-</script>
-</body></html>
+let selected="الكل",cart=0;
+function init(){let cats=["الكل",...new Set(products.map(p=>p.category))];document.getElementById("cats").innerHTML=cats.map(c=>`<button onclick="selected='${c}';render()">${c}</button>`).join("");render()}
+function render(){let q=document.getElementById("search").value.toLowerCase();let list=products.filter(p=>(selected==="الكل"||p.category===selected)&&p.name.toLowerCase().includes(q));document.getElementById("products").innerHTML=list.map(p=>`<article class="item"><div class="pic">${p.icon}</div><div class="stock">${p.stock}</div><h3>${p.name}</h3><div class="price">${p.price} USD</div><button onclick="cart++;document.getElementById('count').textContent=cart">إضافة للسلة</button></article>`).join("")||"مفيش منتجات مطابقة"}
+init();
+</script></body></html>
