@@ -15,14 +15,14 @@ window.VALORIA_PRODUCTS = [
   },
   {
     "id": "ulg-003",
-    "name": "بي إم دبليو",
+    "name": "بي إم دبليو جديدة",
     "category": "مركبات",
     "price": 30,
     "image": "assets/products/item-003.jpg"
   },
   {
     "id": "ulg-004",
-    "name": "هيونداي 2024",
+    "name": "لامبورجيني 2024",
     "category": "مركبات",
     "price": 30,
     "image": "assets/products/item-004.jpg"
@@ -36,7 +36,7 @@ window.VALORIA_PRODUCTS = [
   },
   {
     "id": "ulg-006",
-    "name": "بوليسي G900",
+    "name": "برابوس G900",
     "category": "مركبات",
     "price": 25,
     "image": "assets/products/item-006.jpg"
@@ -50,7 +50,7 @@ window.VALORIA_PRODUCTS = [
   },
   {
     "id": "ulg-008",
-    "name": "رانج روفر 2024",
+    "name": "رنج روفر 2024",
     "category": "مركبات",
     "price": 25,
     "image": "assets/products/item-008.jpg"
@@ -71,7 +71,7 @@ window.VALORIA_PRODUCTS = [
   },
   {
     "id": "ulg-011",
-    "name": "سلالة مميزة جديدة",
+    "name": "سيارة مميزة جديدة",
     "category": "مركبات",
     "price": 20,
     "image": "assets/products/item-011.jpg"
@@ -162,7 +162,7 @@ window.VALORIA_PRODUCTS = [
   },
   {
     "id": "ulg-024",
-    "name": "فرازي اف كلاس",
+    "name": "فرازي أف كلاس",
     "category": "مركبات",
     "price": 12,
     "image": "assets/products/item-024.jpg"
@@ -225,14 +225,14 @@ window.VALORIA_PRODUCTS = [
   },
   {
     "id": "ulg-033",
-    "name": "راس مقطورة مرسيدس",
+    "name": "رأس مقطورة مرسيدس",
     "category": "مركبات",
     "price": 20,
     "image": "assets/products/item-033.jpg"
   },
   {
     "id": "ulg-034",
-    "name": "براجنرنس",
+    "name": "برابوس",
     "category": "مركبات",
     "price": 25,
     "image": "assets/products/item-034.jpg"
@@ -274,14 +274,14 @@ window.VALORIA_PRODUCTS = [
   },
   {
     "id": "ulg-040",
-    "name": "بي ام دابليو 2025",
+    "name": "بي إم دبليو 2025",
     "category": "مركبات",
     "price": 20,
     "image": "assets/products/item-040.jpg"
   },
   {
     "id": "ulg-041",
-    "name": "تيوتا سوبر 2023",
+    "name": "تويوتا سوبرا 2023",
     "category": "مركبات",
     "price": 20,
     "image": "assets/products/item-041.jpg"
@@ -365,7 +365,7 @@ window.VALORIA_PRODUCTS = [
   },
   {
     "id": "ulg-053",
-    "name": "فورد موديل تي (دراجة)",
+    "name": "فورد موديل T (دراجة)",
     "category": "مركبات",
     "price": 10,
     "image": "assets/products/item-053.jpg"
@@ -463,42 +463,42 @@ window.VALORIA_PRODUCTS = [
   },
   {
     "id": "ulg-067",
-    "name": "إيدي تاني",
+    "name": "غرامة فك منع حظر السلاح",
     "category": "خدمات",
-    "price": 15,
+    "price": 5,
     "image": "assets/products/item-067.jpg"
   },
   {
     "id": "ulg-068",
-    "name": "مجموع من التوظيف",
+    "name": "إيدي تاني",
     "category": "خدمات",
-    "price": 30,
+    "price": 15,
     "image": "assets/products/item-068.jpg"
   },
   {
     "id": "ulg-069",
-    "name": "كارت الرصيد",
+    "name": "كتاب الحركات دائم",
     "category": "خدمات",
     "price": 15,
     "image": "assets/products/item-069.jpg"
   },
   {
     "id": "ulg-070",
-    "name": "خدمة أخرى من ULG",
+    "name": "غرامة فك منع توظيف دائم",
     "category": "خدمات",
-    "price": 10,
+    "price": 30,
     "image": "assets/products/item-070.jpg"
   },
   {
     "id": "ulg-071",
-    "name": "حزمة خدمة",
+    "name": "إيدي تاني",
     "category": "خدمات",
-    "price": 5,
+    "price": 15,
     "image": "assets/products/item-071.jpg"
   },
   {
     "id": "ulg-072",
-    "name": "خدمة حساب",
+    "name": "كتاب الحركات دائم",
     "category": "خدمات",
     "price": 15,
     "image": "assets/products/item-072.jpg"
