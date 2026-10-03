@@ -1,10 +1,9 @@
 window.VALORIA_PRODUCTS = [
   {
     "id": "ulg-001",
-    "name": "تغيير الاسم وتغيير اسم الحساب",
+    "name": "تصفير السالبات + تغيير اسم الحساب",
     "category": "خدمات",
     "price": 5,
-    "stock": 867,
     "image": "assets/products/item-001.jpg"
   },
   {
@@ -12,7 +11,6 @@ window.VALORIA_PRODUCTS = [
     "name": "بورش 911",
     "category": "مركبات",
     "price": 20,
-    "stock": 449,
     "image": "assets/products/item-002.jpg"
   },
   {
@@ -20,7 +18,6 @@ window.VALORIA_PRODUCTS = [
     "name": "بي إم دبليو",
     "category": "مركبات",
     "price": 30,
-    "stock": 851,
     "image": "assets/products/item-003.jpg"
   },
   {
@@ -28,7 +25,6 @@ window.VALORIA_PRODUCTS = [
     "name": "هيونداي 2024",
     "category": "مركبات",
     "price": 30,
-    "stock": 897,
     "image": "assets/products/item-004.jpg"
   },
   {
@@ -36,7 +32,6 @@ window.VALORIA_PRODUCTS = [
     "name": "روز جديد",
     "category": "مركبات",
     "price": 30,
-    "stock": 935,
     "image": "assets/products/item-005.jpg"
   },
   {
@@ -44,23 +39,20 @@ window.VALORIA_PRODUCTS = [
     "name": "بوليسي G900",
     "category": "مركبات",
     "price": 25,
-    "stock": 713,
     "image": "assets/products/item-006.jpg"
   },
   {
     "id": "ulg-007",
-    "name": "موتوسيكل g1",
+    "name": "موتوسيكل G1",
     "category": "مركبات",
     "price": 7,
-    "stock": 944,
     "image": "assets/products/item-007.jpg"
   },
   {
     "id": "ulg-008",
-    "name": "رينج روفر 2024",
+    "name": "رانج روفر 2024",
     "category": "مركبات",
     "price": 25,
-    "stock": 958,
     "image": "assets/products/item-008.jpg"
   },
   {
@@ -68,7 +60,6 @@ window.VALORIA_PRODUCTS = [
     "name": "نيسان ددسن 2014",
     "category": "مركبات",
     "price": 18,
-    "stock": 475,
     "image": "assets/products/item-009.jpg"
   },
   {
@@ -76,7 +67,6 @@ window.VALORIA_PRODUCTS = [
     "name": "تويوتا لاند كروزر",
     "category": "مركبات",
     "price": 18,
-    "stock": 477,
     "image": "assets/products/item-010.jpg"
   },
   {
@@ -84,7 +74,6 @@ window.VALORIA_PRODUCTS = [
     "name": "سلالة مميزة جديدة",
     "category": "مركبات",
     "price": 20,
-    "stock": 470,
     "image": "assets/products/item-011.jpg"
   },
   {
@@ -92,15 +81,13 @@ window.VALORIA_PRODUCTS = [
     "name": "نيسان بيك أب",
     "category": "مركبات",
     "price": 15,
-    "stock": 912,
     "image": "assets/products/item-012.jpg"
   },
   {
     "id": "ulg-013",
-    "name": "كونسيج",
+    "name": "كونيجسيج",
     "category": "مركبات",
     "price": 10,
-    "stock": 970,
     "image": "assets/products/item-013.jpg"
   },
   {
@@ -108,7 +95,6 @@ window.VALORIA_PRODUCTS = [
     "name": "رنج روفر",
     "category": "مركبات",
     "price": 15,
-    "stock": 973,
     "image": "assets/products/item-014.jpg"
   },
   {
@@ -116,23 +102,20 @@ window.VALORIA_PRODUCTS = [
     "name": "بنتلي",
     "category": "مركبات",
     "price": 15,
-    "stock": 980,
     "image": "assets/products/item-015.jpg"
   },
   {
     "id": "ulg-016",
-    "name": "مرسيدس G-Class 6×6",
+    "name": "مرسيدس G-Class 6x6",
     "category": "مركبات",
     "price": 30,
-    "stock": 916,
     "image": "assets/products/item-016.jpg"
   },
   {
     "id": "ulg-017",
-    "name": "مرسيدس بيك اب",
+    "name": "مرسيدس بيك أب",
     "category": "مركبات",
     "price": 10,
-    "stock": 973,
     "image": "assets/products/item-017.jpg"
   },
   {
@@ -140,7 +123,6 @@ window.VALORIA_PRODUCTS = [
     "name": "مرسيدس بونتو",
     "category": "مركبات",
     "price": 25,
-    "stock": 981,
     "image": "assets/products/item-018.jpg"
   },
   {
@@ -148,15 +130,13 @@ window.VALORIA_PRODUCTS = [
     "name": "دودج فايبر",
     "category": "مركبات",
     "price": 15,
-    "stock": 962,
     "image": "assets/products/item-019.jpg"
   },
   {
     "id": "ulg-020",
-    "name": "بوقاتي اتلانتيك",
+    "name": "بوغاتي أتلانتيك",
     "category": "مركبات",
     "price": 26,
-    "stock": 981,
     "image": "assets/products/item-020.jpg"
   },
   {
@@ -164,23 +144,20 @@ window.VALORIA_PRODUCTS = [
     "name": "طائرة خاصة",
     "category": "مركبات",
     "price": 15,
-    "stock": 912,
     "image": "assets/products/item-021.jpg"
   },
   {
     "id": "ulg-022",
-    "name": "فورد موديل تي (دراجة)",
+    "name": "فورد موديل T (دراجة)",
     "category": "مركبات",
     "price": 10,
-    "stock": 989,
     "image": "assets/products/item-022.jpg"
   },
   {
     "id": "ulg-023",
-    "name": "بي ام دابليو 4م",
+    "name": "بي إم دبليو M4",
     "category": "مركبات",
     "price": 15,
-    "stock": 901,
     "image": "assets/products/item-023.jpg"
   },
   {
@@ -188,55 +165,48 @@ window.VALORIA_PRODUCTS = [
     "name": "فرازي اف كلاس",
     "category": "مركبات",
     "price": 12,
-    "stock": 989,
     "image": "assets/products/item-024.jpg"
   },
   {
     "id": "ulg-025",
-    "name": "هوندا جينيسس",
+    "name": "هونداي جينيسيس",
     "category": "مركبات",
     "price": 15,
-    "stock": 992,
     "image": "assets/products/item-025.jpg"
   },
   {
     "id": "ulg-026",
-    "name": "شحن رصيد الموقع 10 USD",
-    "category": "رصيد الموقع",
+    "name": "رصيد موقع 10",
+    "category": "رصيد",
     "price": 10,
-    "stock": 945,
     "image": "assets/products/item-026.jpg"
   },
   {
     "id": "ulg-027",
-    "name": "شحن رصيد الموقع 25 USD",
-    "category": "رصيد الموقع",
+    "name": "رصيد موقع 25",
+    "category": "رصيد",
     "price": 25,
-    "stock": 990,
     "image": "assets/products/item-027.jpg"
   },
   {
     "id": "ulg-028",
-    "name": "شحن رصيد الموقع 50 USD",
-    "category": "رصيد الموقع",
+    "name": "رصيد موقع 50",
+    "category": "رصيد",
     "price": 50,
-    "stock": 982,
     "image": "assets/products/item-028.jpg"
   },
   {
     "id": "ulg-029",
-    "name": "شحن رصيد الموقع 75 USD",
-    "category": "رصيد الموقع",
+    "name": "رصيد موقع 75",
+    "category": "رصيد",
     "price": 75,
-    "stock": 995,
     "image": "assets/products/item-029.jpg"
   },
   {
     "id": "ulg-030",
-    "name": "شحن رصيد الموقع 100 USD",
-    "category": "رصيد الموقع",
+    "name": "رصيد موقع 100",
+    "category": "رصيد",
     "price": 100,
-    "stock": 970,
     "image": "assets/products/item-030.jpg"
   },
   {
@@ -244,7 +214,6 @@ window.VALORIA_PRODUCTS = [
     "name": "بطاقة توثيق العائلة",
     "category": "خدمات",
     "price": 15,
-    "stock": 929,
     "image": "assets/products/item-031.jpg"
   },
   {
@@ -252,7 +221,6 @@ window.VALORIA_PRODUCTS = [
     "name": "رادار الرينج",
     "category": "مركبات",
     "price": 25,
-    "stock": 981,
     "image": "assets/products/item-032.jpg"
   },
   {
@@ -260,7 +228,6 @@ window.VALORIA_PRODUCTS = [
     "name": "راس مقطورة مرسيدس",
     "category": "مركبات",
     "price": 20,
-    "stock": 985,
     "image": "assets/products/item-033.jpg"
   },
   {
@@ -268,23 +235,20 @@ window.VALORIA_PRODUCTS = [
     "name": "براجنرنس",
     "category": "مركبات",
     "price": 25,
-    "stock": 981,
     "image": "assets/products/item-034.jpg"
   },
   {
     "id": "ulg-035",
-    "name": "باقات مميزة",
+    "name": "باقة مميزة",
     "category": "عضويات",
     "price": 10,
-    "stock": 949,
     "image": "assets/products/item-035.jpg"
   },
   {
     "id": "ulg-036",
-    "name": "ريميوم كلاس",
+    "name": "بريميوم كلاس",
     "category": "عضويات",
     "price": 15,
-    "stock": 308,
     "image": "assets/products/item-036.jpg"
   },
   {
@@ -292,7 +256,6 @@ window.VALORIA_PRODUCTS = [
     "name": "بطاقة البيدج",
     "category": "خدمات",
     "price": 20,
-    "stock": 981,
     "image": "assets/products/item-037.jpg"
   },
   {
@@ -300,7 +263,6 @@ window.VALORIA_PRODUCTS = [
     "name": "دودج شارجر 2023",
     "category": "مركبات",
     "price": 15,
-    "stock": 948,
     "image": "assets/products/item-038.jpg"
   },
   {
@@ -308,7 +270,6 @@ window.VALORIA_PRODUCTS = [
     "name": "رولز رويس كولينان 2023",
     "category": "مركبات",
     "price": 20,
-    "stock": 978,
     "image": "assets/products/item-039.jpg"
   },
   {
@@ -316,7 +277,6 @@ window.VALORIA_PRODUCTS = [
     "name": "بي ام دابليو 2025",
     "category": "مركبات",
     "price": 20,
-    "stock": 950,
     "image": "assets/products/item-040.jpg"
   },
   {
@@ -324,7 +284,6 @@ window.VALORIA_PRODUCTS = [
     "name": "تيوتا سوبر 2023",
     "category": "مركبات",
     "price": 20,
-    "stock": 957,
     "image": "assets/products/item-041.jpg"
   },
   {
@@ -332,15 +291,13 @@ window.VALORIA_PRODUCTS = [
     "name": "راعي بيزي",
     "category": "عضويات",
     "price": 5,
-    "stock": 949,
     "image": "assets/products/item-042.jpg"
   },
   {
     "id": "ulg-043",
-    "name": "BMW e30 Drift",
+    "name": "BMW E30 Drift",
     "category": "مركبات",
     "price": 20,
-    "stock": 455,
     "image": "assets/products/item-043.jpg"
   },
   {
@@ -348,7 +305,6 @@ window.VALORIA_PRODUCTS = [
     "name": "شاحنة سطحة هوريون",
     "category": "مركبات",
     "price": 15,
-    "stock": 890,
     "image": "assets/products/item-044.jpg"
   },
   {
@@ -356,7 +312,6 @@ window.VALORIA_PRODUCTS = [
     "name": "راعي فضي",
     "category": "عضويات",
     "price": 10,
-    "stock": 968,
     "image": "assets/products/item-045.jpg"
   },
   {
@@ -364,7 +319,6 @@ window.VALORIA_PRODUCTS = [
     "name": "راعي ذهبي",
     "category": "عضويات",
     "price": 15,
-    "stock": 979,
     "image": "assets/products/item-046.jpg"
   },
   {
@@ -372,7 +326,6 @@ window.VALORIA_PRODUCTS = [
     "name": "راعي استراتيجي",
     "category": "عضويات",
     "price": 20,
-    "stock": 978,
     "image": "assets/products/item-047.jpg"
   },
   {
@@ -380,7 +333,6 @@ window.VALORIA_PRODUCTS = [
     "name": "راعي أساسي",
     "category": "عضويات",
     "price": 25,
-    "stock": 941,
     "image": "assets/products/item-048.jpg"
   },
   {
@@ -388,7 +340,6 @@ window.VALORIA_PRODUCTS = [
     "name": "Jeep Wrangler",
     "category": "مركبات",
     "price": 15,
-    "stock": 983,
     "image": "assets/products/item-049.jpg"
   },
   {
@@ -396,7 +347,6 @@ window.VALORIA_PRODUCTS = [
     "name": "Tesla Roadster 2026",
     "category": "مركبات",
     "price": 25,
-    "stock": 976,
     "image": "assets/products/item-050.jpg"
   },
   {
@@ -404,15 +354,13 @@ window.VALORIA_PRODUCTS = [
     "name": "أيدي تاني",
     "category": "خدمات",
     "price": 25,
-    "stock": 982,
     "image": "assets/products/item-051.jpg"
   },
   {
     "id": "ulg-052",
-    "name": "كارت تعديل سيارة كامل",
+    "name": "كارت تعديل سيارة فل",
     "category": "خدمات",
     "price": 5,
-    "stock": 981,
     "image": "assets/products/item-052.jpg"
   },
   {
@@ -420,7 +368,6 @@ window.VALORIA_PRODUCTS = [
     "name": "فورد موديل تي (دراجة)",
     "category": "مركبات",
     "price": 10,
-    "stock": 989,
     "image": "assets/products/item-053.jpg"
   },
   {
@@ -428,7 +375,6 @@ window.VALORIA_PRODUCTS = [
     "name": "سكن خاص",
     "category": "خدمات",
     "price": 5,
-    "stock": 935,
     "image": "assets/products/item-054.jpg"
   },
   {
@@ -436,7 +382,6 @@ window.VALORIA_PRODUCTS = [
     "name": "Ford Mustang (Police)",
     "category": "مركبات",
     "price": 12,
-    "stock": 966,
     "image": "assets/products/item-055.jpg"
   },
   {
@@ -444,23 +389,20 @@ window.VALORIA_PRODUCTS = [
     "name": "AMG ONE",
     "category": "مركبات",
     "price": 35,
-    "stock": 985,
     "image": "assets/products/item-056.jpg"
   },
   {
     "id": "ulg-057",
-    "name": "تفعيل الحساب بشكل دائم",
+    "name": "تفعيل حساب دائم",
     "category": "خدمات",
     "price": 50,
-    "stock": 999,
     "image": "assets/products/item-057.jpg"
   },
   {
     "id": "ulg-058",
-    "name": "تفعيل حساب الديسكورد الأول",
+    "name": "تفعيل حساب أول ديسكورد",
     "category": "خدمات",
     "price": 10,
-    "stock": 999,
     "image": "assets/products/item-058.jpg"
   },
   {
@@ -468,7 +410,6 @@ window.VALORIA_PRODUCTS = [
     "name": "حظر دائم",
     "category": "خدمات",
     "price": 25,
-    "stock": 999,
     "image": "assets/products/item-059.jpg"
   },
   {
@@ -476,23 +417,20 @@ window.VALORIA_PRODUCTS = [
     "name": "حظر مؤقت",
     "category": "خدمات",
     "price": 5,
-    "stock": 999,
     "image": "assets/products/item-060.jpg"
   },
   {
     "id": "ulg-061",
-    "name": "إلغاء تفعيل الحساب الدائم",
+    "name": "إلغاء تفعيل حساب دائم",
     "category": "خدمات",
     "price": 30,
-    "stock": 999,
     "image": "assets/products/item-061.jpg"
   },
   {
     "id": "ulg-062",
-    "name": "إلغاء تفعيل الحساب المؤقت",
+    "name": "إلغاء تفعيل حساب مؤقت",
     "category": "خدمات",
     "price": 15,
-    "stock": 999,
     "image": "assets/products/item-062.jpg"
   },
   {
@@ -500,23 +438,20 @@ window.VALORIA_PRODUCTS = [
     "name": "بلاغ ليست مايك",
     "category": "خدمات",
     "price": 5,
-    "stock": 997,
     "image": "assets/products/item-063.jpg"
   },
   {
     "id": "ulg-064",
-    "name": "إلغاء منع التوظيف المؤقت",
+    "name": "إلغاء منع توظيف مؤقت",
     "category": "خدمات",
     "price": 10,
-    "stock": 999,
     "image": "assets/products/item-064.jpg"
   },
   {
     "id": "ulg-065",
-    "name": "إلغاء منع التوظيف الدائم",
+    "name": "إلغاء منع توظيف دائم",
     "category": "خدمات",
     "price": 30,
-    "stock": 999,
     "image": "assets/products/item-065.jpg"
   },
   {
@@ -524,7 +459,6 @@ window.VALORIA_PRODUCTS = [
     "name": "إلغاء الحظر الدائم",
     "category": "خدمات",
     "price": 15,
-    "stock": 999,
     "image": "assets/products/item-066.jpg"
   },
   {
@@ -532,15 +466,13 @@ window.VALORIA_PRODUCTS = [
     "name": "إيدي تاني",
     "category": "خدمات",
     "price": 15,
-    "stock": 999,
     "image": "assets/products/item-067.jpg"
   },
   {
     "id": "ulg-068",
-    "name": "إزالة منع التوظيف",
+    "name": "مجموع من التوظيف",
     "category": "خدمات",
     "price": 30,
-    "stock": 999,
     "image": "assets/products/item-068.jpg"
   },
   {
@@ -548,7 +480,6 @@ window.VALORIA_PRODUCTS = [
     "name": "كارت الرصيد",
     "category": "خدمات",
     "price": 15,
-    "stock": 999,
     "image": "assets/products/item-069.jpg"
   },
   {
@@ -556,7 +487,6 @@ window.VALORIA_PRODUCTS = [
     "name": "خدمة أخرى من ULG",
     "category": "خدمات",
     "price": 10,
-    "stock": 999,
     "image": "assets/products/item-070.jpg"
   },
   {
@@ -564,7 +494,6 @@ window.VALORIA_PRODUCTS = [
     "name": "حزمة خدمة",
     "category": "خدمات",
     "price": 5,
-    "stock": 999,
     "image": "assets/products/item-071.jpg"
   },
   {
@@ -572,7 +501,6 @@ window.VALORIA_PRODUCTS = [
     "name": "خدمة حساب",
     "category": "خدمات",
     "price": 15,
-    "stock": 999,
     "image": "assets/products/item-072.jpg"
   }
 ];
