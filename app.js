@@ -2,7 +2,7 @@ const all = window.VALORIA_PRODUCTS || [];
 let selected = "الكل";
 let cart = 0;
 
-const categoryOrder = ["الكل", "مركبات", "خدمات", "رصيد الموقع", "عضويات"];
+const categoryOrder = ["الكل", "مركبات", "خدمات", "رصيد", "عضويات"];
 const present = [...new Set(all.map(p => p.category).filter(Boolean))];
 const categories = categoryOrder.filter(c => c === "الكل" || present.includes(c))
   .concat(present.filter(c => !categoryOrder.includes(c)));
@@ -37,7 +37,7 @@ function render() {
     return categoryMatch && textMatch;
   });
 
-  title.textContent = selected === "الكل" ? "كل منتجات ڤالوريا" : "قسم " + selected;
+  title.textContent = selected === "الكل" ? "كل منتجات ڤالوريا" : selected;
   grid.innerHTML = "";
 
   if (!products.length) {
