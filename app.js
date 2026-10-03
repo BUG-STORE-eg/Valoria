@@ -54,16 +54,21 @@ function render() {
     card.className = "product";
     const picture = document.createElement("div");
     picture.className = "pic";
-    const image = document.createElement("img");
-    image.src = product.image;
-    image.alt = product.name || "منتج ڤالوريا";
-    image.loading = "lazy";
-    image.onerror = () => {
-      image.style.display = "none";
+    if (product.image) {
+      const image = document.createElement("img");
+      image.src = product.image;
+      image.alt = product.name || "منتج ڤالوريا";
+      image.loading = "lazy";
+      image.onerror = () => {
+        image.style.display = "none";
+        picture.classList.add("no-image");
+        picture.textContent = product.category === "خدمات" ? "✦ خدمة ڤالوريا" : "VALORIA";
+      };
+      picture.appendChild(image);
+    } else {
       picture.classList.add("no-image");
-      picture.textContent = "VALORIA";
-    };
-    picture.appendChild(image);
+      picture.textContent = product.category === "خدمات" ? "✦ خدمة ڤالوريا" : "VALORIA";
+    }
 
     const category = document.createElement("div");
     category.className = "product-category";
